@@ -1,0 +1,15 @@
+# This file was edited by rollout.io
+# URL: https://qax.rollout.io/ex/5b472744b6e8343fc31c60c4
+type: experiment
+name: flag colors for dependency
+flag: flagColorsForDependency
+availableValues:
+  - Yellow
+  - White
+  - Green
+  - Blue
+conditions:
+  - group:
+      name: TG variant dep with context
+    value: Green
+value: []

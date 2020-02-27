@@ -1,0 +1,5 @@
+type: target-group
+name: TG operand 2
+conditions:
+  - operator: is-true
+    property: boolPropTargetGroupOperand2

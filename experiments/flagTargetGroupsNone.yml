@@ -1,0 +1,13 @@
+# This file was edited by rollout.io
+# URL: https://qax.rollout.io/ex/5b34b1687d2caa782009c7e8
+type: experiment
+name: flag target groups none
+flag: flagTargetGroupsNone
+conditions:
+  - group:
+      operator: nor
+      name:
+        - TG operand 1
+        - TG operand 2
+    value: true
+value: false

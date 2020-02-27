@@ -1,0 +1,10 @@
+# This file was edited by rollout.io
+# URL: https://qax.rollout.io/ex/5b33cfb27d2caa782009c58e
+type: experiment
+name: flag custom properties
+flag: flagCustomProperties
+conditions:
+  - group:
+      name: All Custom Properties
+    value: true
+value: false

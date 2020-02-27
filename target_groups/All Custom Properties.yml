@@ -1,0 +1,33 @@
+type: target-group
+name: All Custom Properties
+conditions:
+  - operator: gte
+    property: intProp2
+    operand: 0
+  - operator: lte
+    property: intProp1
+    operand: 7
+  - operator: eq
+    property: stringProp2
+    operand: World
+  - operator: in-array
+    property: stringProp1
+    operand:
+      - Hi
+      - Hello
+  - operator: semver-lt
+    property: smvrProp2
+    operand: 100.0.5
+  - operator: semver-eq
+    property: smvrProp1
+    operand: 9.11.2001
+  - operator: gt
+    property: doubleProp2
+    operand: 0.92
+  - operator: lt
+    property: doubleProp1
+    operand: 12.1
+  - operator: is-false
+    property: boolProp2
+  - operator: is-true
+    property: boolProp1

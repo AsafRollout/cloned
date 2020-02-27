@@ -1,0 +1,10 @@
+# This file was edited by rollout.io
+# URL: https://qax.rollout.io/ex/5b47280ebddf203f97fdba45
+type: experiment
+name: flag for dependency
+flag: flagForDependency
+conditions:
+  - group:
+      name: TG for Dependency
+    value: true
+value: false

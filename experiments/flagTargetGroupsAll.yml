@@ -1,0 +1,13 @@
+# This file was edited by rollout.io
+# URL: https://qax.rollout.io/ex/5b34b1407d2caa782009c7c6
+type: experiment
+name: flag target groups all
+flag: flagTargetGroupsAll
+conditions:
+  - group:
+      operator: and
+      name:
+        - TG operand 1
+        - TG operand 2
+    value: true
+value: false

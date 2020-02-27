@@ -1,0 +1,16 @@
+# This file was edited by rollout.io
+# URL: https://qax.rollout.io/ex/5b4727b4bddf203f97fdba09
+type: experiment
+name: flag color dependent with context
+flag: flagColorDependentWithContext
+availableValues:
+  - Yellow
+  - White
+  - Green
+  - Blue
+conditions:
+  - dependency:
+      flag: flagColorsForDependency
+      value: Green
+    value: Yellow
+value: []

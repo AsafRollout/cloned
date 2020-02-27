@@ -1,0 +1,5 @@
+type: target-group
+name: TG variant dep with context
+conditions:
+  - operator: is-true
+    property: boolPropTargetGroupForVariantDependency

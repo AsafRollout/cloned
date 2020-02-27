@@ -1,0 +1,10 @@
+# This file was edited by rollout.io
+# URL: https://qax.rollout.io/ex/5b33c1ec0d81206da3056054
+type: experiment
+name: variant overwritten
+flag: variantOverwritten
+availableValues:
+  - red
+  - green
+  - blue
+value: green

@@ -1,0 +1,14 @@
+# This file was edited by rollout.io
+# URL: https://qax.rollout.io/ex/5b34b17a0d81206da3056307
+type: experiment
+name: variant with context
+flag: variantWithContext
+availableValues:
+  - red
+  - green
+  - blue
+conditions:
+  - group:
+      name: TG for Var with Context
+    value: blue
+value: []

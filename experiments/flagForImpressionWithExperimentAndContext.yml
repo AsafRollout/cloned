@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://qax.rollout.io/ex/5b3cc569f452c215921a4a9c
+type: experiment
+name: flag for impression with experiment and context
+flag: flagForImpressionWithExperimentAndContext
+value: true
